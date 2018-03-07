@@ -1,6 +1,8 @@
 # koiwai
 A Discord bot that uses a more conversational command structure
 
+[![Discord Bots](https://discordbots.org/api/widget/status/417135939773661214.svg)](https://discordbots.org/bot/417135939773661214) [![Discord Bots](https://discordbots.org/api/widget/lib/417135939773661214.svg?noavatar=true)](https://discordbots.org/bot/417135939773661214) [![Discord Bots](https://discordbots.org/api/widget/owner/417135939773661214.svg?noavatar=true)](https://discordbots.org/bot/417135939773661214)
+
 ## About the bot
 Standard Discord bots look for a prefix before they start processing their commands. Instead of following this structure, Koiwai looks for its name or a mention in message as well as keywords for each command and responds. This allows users to structure their commands to the bot in a more free-form manner rather than using the same specific commands over and over.
 
