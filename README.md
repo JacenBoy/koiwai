@@ -35,5 +35,7 @@ Koiwai has a handful of commands usable only to the bot's owner.
 * Stop - Stops the bot. (Stop)
 * Version - Gets the bot's current version number. (Version)
 * Debug Logging - Enables/disables additional logging information. (Logging enable/disable)
-* Log - Manually adds a note in the console log. Place your note in backticks (`). (Log)
-* Eval - Runs an eval on the code you specify. Place the code in backticks (`). (eval)
+* Log - Manually adds a note in the console log. Place your note in backticks (\`). (Log)
+* Eval - Runs an eval on the code you specify. Place the code in backticks (\`). (eval)
+
+You can blacklist servers and server owners from adding Koiwai to their servers. Simply add their user/server id into the correct spot in the blacklist.json file.
