@@ -12,6 +12,24 @@ client.on('ready', () => {
 
 client.on("guildCreate", (guild) => {
 	console.log("Added to new server: " + guild.name);
+	
+	// Blacklist system - Automatically leave servers that are blacklisted, or whose owners are blacklisted
+	blacklist.servers.forEach(function(i) {
+		//console.log(i);
+		if (guild.id == i) {
+			guild.owner.send("An attempt to add this bot to your server has failed because the server is blacklisted.\nThis is a privately hosted version of the Koiwai bot, so please contect the bot's host for more details.");
+			console.log("Joining server canceled due to server blacklist.");
+			guild.leave();
+		}
+	});
+	
+	blacklist.owners.forEach(function(i) {
+		if (guild.owner.id == i) {
+			guild.owner.send("An attempt to add the Koiwai bot to your server has failed because you, the owner, are blacklisted.\nThis is a privately hosted version of the Koiwai bot, so please contect the bot's host for more details.");
+			console.log("Joining server canceled due to owner blacklist.");
+			guild.leave();
+		}
+	});
 });
 
 client.on("guildDelete", (guild) => {
@@ -212,7 +230,7 @@ client.on("message", (message) => {
 		
 		// Help/Info - Link to the webpage that shows basic information about the bot
 		if (message.content.toLowerCase().search("help") != -1 || message.content.toLowerCase().search("info") != -1 || message.content.toLowerCase().search("about") != -1) {
-			message.channel.send("Here's an information page:\nhttps://github.com/JacenBoy/koiwai");
+			message.channel.send("Here's an information page:\nhttps://github.com/JacenBoy/koiwai\n\nThis is a privately hosted version of the Koiwai bot, so please direct issues first to the bot's host.");
 		}
 	}
 });

@@ -1,6 +1,6 @@
 {
   "name": "koiwai",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Discord bot with a conversational command structure.",
   "main": "app.js",
   "scripts": {
