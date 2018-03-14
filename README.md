@@ -11,7 +11,7 @@ Koiwai is still in its early stages, so the commands are simple and limited. Her
 
 * Ready - Koiwai will tell you whether or not it is ready. This allows you to easily check whether or not the bot is online. (Ready)
 * Who is __? - generate a usercard with a little information about a user. (Who am I, Who is)
-* Quote - Returns a random anime quote. There aren't many quotes impelented now, so please submit any suggestions. (Quote)
+* Quote - Returns a random anime quote. There aren't many quotes implemented now, so please submit any suggestions. (Quote)
 * Google - Generates a LMGTFY link for people who don't know how to use Google. Include your search term in angle brackets (<>). (Google, Search)
 * Gratitude - Always remember to be polite to your bots. Koiwai will respond if you thank him. (Thanks, Thank you)
 * Help - Links back to this page. (Help, About, Info)
