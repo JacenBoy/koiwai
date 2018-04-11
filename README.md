@@ -13,6 +13,7 @@ Koiwai is still in its early stages, so the commands are simple and limited. Her
 * Who is __? - generate a usercard with a little information about a user. (Who am I, Who is)
 * Quote - Returns a random anime quote. There aren't many quotes implemented now, so please submit any suggestions. (Quote)
 * Google - Generates a LMGTFY link for people who don't know how to use Google. Include your search term in angle brackets (<>). (Google, Search)
+* MyAnimeList - Search for information on an Anime on MAL. Place your search term in angle brackets (<>). (MAL, Anime)
 * Gratitude - Always remember to be polite to your bots. Koiwai will respond if you thank him. (Thanks, Thank you)
 * Help - Links back to this page. (Help, About, Info)
 
